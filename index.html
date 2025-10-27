@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reproductor de Música</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="player">
+    <h1>🎵 Mi Reproductor de Música</h1>
+
+    <div class="track-info">
+      <h2 id="track-title">Selecciona una canción</h2>
+    </div>
+
+    <audio id="audio" src=""></audio>
+
+    <div class="controls">
+      <button id="prev">⏮️ Anterior</button>
+      <button id="play">▶️ Reproducir</button>
+      <button id="next">⏭️ Siguiente</button>
+    </div>
+
+    <div class="playlist">
+      <h3>Playlist</h3>
+      <ul id="playlist"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
