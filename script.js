@@ -1,6 +1,6 @@
 // Lista de canciones (ajusta los nombres y rutas según tus archivos)
 const songs = [
-  { title: "Canción 1", file: "musica/cancion1.mp3" },
+  { title: "Canción 1", file: "cancion1.mp3" },
   { title: "Canción 2", file: "musica/cancion2.mp3" },
   { title: "Canción 3", file: "musica/cancion3.mp3" }
 ];
